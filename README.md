@@ -1,12 +1,12 @@
 # Amazon-Sales-Analysis
 Check my Analysis: [![Colab](https://img.shields.io/badge/Colab-F9AB00?style=for-the-badge&logo=googlecolab&color=525252)](https://colab.research.google.com/drive/1zqvqfEf5n10LtoqM4ILcrHzEhcmPhbCp?usp=sharing)
 
-###About Project
+About Project
 This project consists of two data-cleaning stages. The first stage was done in Visual Studio Code, where the data was cleaned, formatted, and stripped of unwanted foreign characters. The output from this stage was saved as “clean_data_amazon.” The second stage was performed in Google Colab to further organize and structure the dataset. Colab was used because the data contains a wide variety of elements that require additional grouping and refinement. The results of these processes are discussed below.
 
 ---
 
-###Insight
+Insight
 A. Product Rating Distribution
 ![image alt](https://github.com/nataliareta/Amazon-Sales-Analysis/blob/5c4c44de9ff6bd302be7037363358313a9d87ad1/Product_Rating_Distribution.png)
 - kewness: The distribution is negatively skewed (left-skewed). This means that the majority of the data (the highest Count/Jumlah) is concentrated on the higher end of the rating scale. The tail of the distribution extends towards the lower ratings.
@@ -41,7 +41,7 @@ E. Actual Price vs Discounted_price
 **Market Focus: The dataset is predominantly focused on very low-priced goods.**
 
 F. Distribution of Discounted Price
-
+![image alt](https://github.com/nataliareta/Amazon-Sales-Analysis/blob/a1b8dc302d195274097c0b1ebf3e6d032d754d79/Actual_vs_Discount_Before_After.png)
 - Extreme Right-Skewed Distribution: Both distributions are highly positively skewed (right-skewed). The vast majority of products, with the highest counts (over 1,000), are concentrated near Rp0 to Rp5,000.
 - Distribution Comparison:
 1. Shape: Both graphs have an almost identical shape. The peak (mode) of both distributions lies in the first (lowest) price bin.
