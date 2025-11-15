@@ -6,7 +6,8 @@ This project consists of two data-cleaning stages. The first stage was done in V
 
 ---
 
-Insight
+#Insight
+
 **A. Product Rating Distribution**
 
 ![image alt](https://github.com/nataliareta/Amazon-Sales-Analysis/blob/5c4c44de9ff6bd302be7037363358313a9d87ad1/Product_Rating_Distribution.png)
